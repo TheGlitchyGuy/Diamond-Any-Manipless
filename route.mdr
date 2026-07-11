@@ -43,6 +43,8 @@ Put the cursor on BAG before closing the menu
 
 Pick:info[**Chimchar**]{color=red} (Middle) as your starter
 
-:::::::trainer[Wild Starly]
+
+:::::::trainer[Wild Encounter]
+  :::::pokemon[Starly]
      - Scratch x2-4
 :::::::
