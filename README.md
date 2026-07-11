@@ -1,5 +1,5 @@
 # Diamond Any% Manipless Notes Beginner
-Ranger File by [Brownie (Me](https://www.twitch.tv/browniesruns)
+Ranger File by [Brownie (Me)](https://www.twitch.tv/browniesruns) /n
 Original Notes by [Lucas_PGLP](https://www.twitch.tv/Lucas_PGLP)
 
 ## What is this?
