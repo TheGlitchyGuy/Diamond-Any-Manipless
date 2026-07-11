@@ -82,4 +82,5 @@ Pick :info[**Chimchar**]{color=red} (Middle) as your starter
   :::::pokemon[Starly]
      - Leer + Scratch Spam
 ::damage[Starly's Tackle]{source="Chimchar" offensive=false special=false movePower=35 stab=true level=5 opponentLevel=5 opponentStat=10}
+::damage[Starly's Quick Attack]{source="Chimchar" offensive=false special=false movePower=40 stab=true level=5 opponentLevel=5 opponentStat=10}
 :::::::
