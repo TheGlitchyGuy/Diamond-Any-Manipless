@@ -43,7 +43,6 @@ Put the cursor on BAG before closing the menu
 
 Pick :info[**Chimchar**]{color=red} (Middle) as your starter
 
-
 :::::::trainer[Wild Encounter]
   :::::pokemon[Starly]
      - Scratch x2-4
@@ -54,8 +53,7 @@ Pick :info[**Chimchar**]{color=red} (Middle) as your starter
 - Talk to Rowan and the start of the route
 - Talk to your mother and get the **running shoes**
 - Go to **Route 201** and go to the right and go to **Sandgem Town**
-
-- Rename **Chimchar**
+- Rename :info[**Chimchar**]{color=red}
 - Say Yes to the Pokédex
 - Leave lab as soon as Lucas leaves and have the tutorial
 - Enter Poké Mart
