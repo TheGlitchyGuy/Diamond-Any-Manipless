@@ -91,8 +91,15 @@ Pick :info[**Chimchar**]{color=red} (Middle) as your starter
   :::::pokemon[Bidoof]
      - Scratch Spam
 ::damage[Bidoof 1 Tackle]{source="Chimchar" offensive=false special=false movePower=35 stab=true level=6 opponentLevel=3 opponentStat=6}
-  :::::
+
   :::::pokemon[Bidoof]
      - Ember Spam
 ::damage[Bidoof 2 Tackle]{source="Chimchar" offensive=false special=false movePower=35 stab=true level=7 opponentLevel=3 opponentStat=6}
 :::::::
+
+
+
+hidden power test
+::variable{name="hpStarly" type="select" title="What did Hidden Power do to Starly ?" options='["No Effect", "Not Very Effective", "Neutral", "Super Effective !"]'}
+:::if{source="Chimcar" condition=hpStarly="No Effect"}
+- say hi
