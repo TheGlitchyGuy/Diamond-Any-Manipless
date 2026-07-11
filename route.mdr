@@ -103,3 +103,4 @@ hidden power test
 ::variable{name="hpStarly" type="select" title="What did Hidden Power do to Starly ?" options='["No Effect", "Not Very Effective", "Neutral", "Super Effective !"]'}
 :::if{source="Chimchar" condition=hpStarly="No Effect"}
 - say hi
+:::
