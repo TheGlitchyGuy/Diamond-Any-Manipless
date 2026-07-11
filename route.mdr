@@ -87,7 +87,7 @@ Pick :info[**Chimchar**]{color=red} (Middle) as your starter
 
 - Continue to Lass Natalie
 
-:::::::trainer[Lass Natalue]
+:::::::trainer[Lass Natalie]
   :::::pokemon[Bidoof]
      - Scratch Spam
 ::damage[Bidoof 1 Tackle]{source="Chimchar" offensive=false special=false movePower=35 stab=true level=6 opponentLevel=3 opponentStat=6}
