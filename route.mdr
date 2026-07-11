@@ -9,7 +9,20 @@
 
 :::card{theme=warning}
 **Before the Run starts**
-- Make sure the console date is set to **01/01/xxxx**
+- Make sure the console date is set to **01/01/XXXX**
 - Make sure you clear the games save data
 - Time Starts on pressing the button to open the game from the DS Menu
+:::
+
+### During the Intro
+- Answer 'No Info Needed' (vvv)  
+- Choose **girl**  
+- Name Yourself 'A'
+- Name the rival 'Barry' (v)
+
+:::card{theme=info}
+**Options**
+- Text Speed - **Fast**
+- Battle Scene - **Off**
+*Set mode doesnt matter as we only use 1 Pokémon*
 :::
