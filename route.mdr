@@ -99,19 +99,61 @@ Pick :info[**Chimchar**]{color=red} (Middle) as your starter
 
 
 
-hidden power test
+hidden power stuff
 ::variable{name="hpStarly" type="select" title="What did Hidden Power do to Starly ?" options='["No Effect", "Not Very Effective", "Neutral", "Super Effective !"]'}
 :::if{source="Chimchar" condition="$hpStarly == 'No Effect'"}
-- You have Hidden Power Ground or Ghost
+- You have either Hidden Power Ground(2x Super Effective against every pokemon where used) 
+- or Ghost (Neutral against every pokemon where used)
 :::
-::::if{source="Chimchar" condition="$hpStarly != 'No Effect'"}
 
+::::if{source="Chimchar" condition="$hpStarly != 'No Effect'"}
 ::variable{name="hpPiplup" type="select" title="What did Hidden Power do to Piplup ?" options='["Not Very Effective", "Neutral", "Super Effective !"]'}
 
+:::if{source="Chimchar" condition="$hpStarly == 'Not Very Effective' && $hpPiplup == 'Not Very Effective'"}
+- Enter a valid combination.
+:::
+
 :::if{source="Chimchar" condition="$hpStarly == 'Not Very Effective' && $hpPiplup == 'Neutral'"}
-- You have Hidden Power Bug
+- You have Hidden Power Bug (Neutral against every pokemon where used)
 $route=4
 :::
 
+:::if{source="Chimchar" condition="$hpStarly == 'Not Very Effective' && $hpPiplup == 'Super Effective !'"}
+- You have Hidden Power Grass, which is the best Hidden power you can get since its 4x super effective against Geodude, Onix and 2x effective against Cranidos
+- Effectively making it the fastest by far since youo can skip a lot of trainers and EXP.
+:::
+
+:::if{source="Chimchar" condition="$hpStarly == 'Neutral' && $hpPiplup == 'Not Very Effective'"}
+- You have either Hidden Power Fire, Water or Steel
+- Water is right behind Grass as the second best Hidden Power, also being 4x super effective against Geodude, Onix and 2x effective against Cranidos but having a slower Rival fight.
+- Steel is a very good Hidden Power, being 2x super effective against Geodude, Onix and Cranidos
+- Fire on the other hand is the pretty bad Hidden Power, requiring a slow exp route and consuming a lot of Ember PP which are needed later.
+:::
+
+:::if{source="Chimchar" condition="$hpStarly == 'Neutral' && $hpPiplup == 'Neutral'"}
+- You have either Hidden Power Fighting, Poison, Flying, Psychic, Dragon, Dark.
+- The only good Hidden Power is Fighting, which you will know if you have it the next fight.(2x super effective against Geodude, Onix and Cranidos)
+:::
+
+:::if{source="Chimchar" condition="$hpStarly == 'Neutral' && $hpPiplup == 'Super Effective !'"}
+- Enter a valid combination.
+:::
+
+:::if{source="Chimchar" condition="$hpStarly == 'Super Effective !' && $hpPiplup == 'Not Very Effective'"}
+- You have a good Hidden Power, Ice.(2x super effective against Geodude and Onix)
+:::
+
+:::if{source="Chimchar" condition="$hpStarly == 'Super Effective !' && $hpPiplup == 'Neutral'"}
+- You have a bad Hidden Power, Rock.
+:::
+
+:::if{source="Chimchar" condition="$hpStarly == 'Super Effective !' && $hpPiplup == 'Super Effective !'"}
+- You have a bad Hidden Power, Electric, but a fast rival fight at least.
+:::
+
 ::::
+
+
+
+
 
