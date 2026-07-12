@@ -104,7 +104,7 @@ hidden power test
 :::if{source="Chimchar" condition="$hpStarly == 'No Effect'"}
 - You have Hidden Power Ground or Ghost
 :::
-::::if{source="Chimchar" condition="!$hpStarly = 'No Effect'"}
+::::if{source="Chimchar" condition="$hpStarly != 'No Effect'"}
 
 ::variable{name="hpPiplup" type="select" title="What did Hidden Power do to Piplup ?" options='["Not Very Effective", "Neutral", "Super Effective !"]'}
 
