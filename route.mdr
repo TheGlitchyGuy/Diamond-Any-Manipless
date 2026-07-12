@@ -102,5 +102,16 @@ Pick :info[**Chimchar**]{color=red} (Middle) as your starter
 hidden power test
 ::variable{name="hpStarly" type="select" title="What did Hidden Power do to Starly ?" options='["No Effect", "Not Very Effective", "Neutral", "Super Effective !"]'}
 :::if{source="Chimchar" condition="$hpStarly == 'No Effect'"}
-- say hi
+- You have Hidden Power Ground or Ghost
 :::
+::::if{source="Chimchar" condition="!$hpStarly == 'No Effect'"}
+
+::variable{name="hpPiplup" type="select" title="What did Hidden Power do to Piplup ?" options='["Not Very Effective", "Neutral", "Super Effective !"]'}
+
+:::if{source="Chimchar" condition="$hpStarly == 'Not Very Effective' && $hpPiplup == 'Neutral'"}
+You have Hidden Power Bug
+$route=4
+:::
+
+::::
+
