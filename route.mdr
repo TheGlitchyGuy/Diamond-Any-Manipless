@@ -120,7 +120,7 @@ $route=4
 
 :::if{source="Chimchar" condition="$hpStarly == 'Not Very Effective' && $hpPiplup == 'Super Effective !'"}
 - You have Hidden Power Grass, which is the best Hidden power you can get since its 4x super effective against Geodude, Onix and 2x effective against Cranidos
-- Effectively making it the fastest by far since youo can skip a lot of trainers and EXP.
+- Effectively making it the fastest by far since you can skip a lot of trainers and EXP.
 :::
 
 :::if{source="Chimchar" condition="$hpStarly == 'Neutral' && $hpPiplup == 'Not Very Effective'"}
