@@ -99,14 +99,22 @@ Pick :info[**Chimchar**]{color=red} (Middle) as your starter
 
 
 
-hidden power stuff
+
+:::::::trainer[Rival 1]
+::::::pokemon[Starly]
+- Hidden Power
+- Spam Ember
+
 ::variable{name="hpStarly" type="select" title="What did Hidden Power do to Starly ?" options='["No Effect", "Not Very Effective", "Neutral", "Super Effective !"]'}
-:::if{source="Chimchar" condition="$hpStarly == 'No Effect'"}
+::::if{source="Chimchar" condition="$hpStarly == 'No Effect'"}
 - You have either Hidden Power Ground(2x Super Effective against every pokemon where used) 
 - or Ghost (Neutral against every pokemon where used)
-:::
+::::
+::::::
 
-::::if{source="Chimchar" condition="$hpStarly != 'No Effect'"}
+::::::pokemon[Piplup]
+:::::if{source="Chimchar" condition="$hpStarly != 'No Effect'"}
+- Hidden Power
 ::variable{name="hpPiplup" type="select" title="What did Hidden Power do to Piplup ?" options='["Not Very Effective", "Neutral", "Super Effective !"]'}
 
 :::if{source="Chimchar" condition="$hpStarly == 'Not Very Effective' && $hpPiplup == 'Not Very Effective'"}
@@ -115,12 +123,15 @@ hidden power stuff
 
 :::if{source="Chimchar" condition="$hpStarly == 'Not Very Effective' && $hpPiplup == 'Neutral'"}
 - You have Hidden Power Bug (Neutral against every pokemon where used)
-$route=4
+- Spam Hidden Power or Scratch
+- Spam Ember if Growled 2 times(-2 attack)
 :::
 
 :::if{source="Chimchar" condition="$hpStarly == 'Not Very Effective' && $hpPiplup == 'Super Effective !'"}
 - You have Hidden Power Grass, which is the best Hidden power you can get since its 4x super effective against Geodude, Onix and 2x effective against Cranidos
 - Effectively making it the fastest by far since you can skip a lot of trainers and EXP.
+- Spam Hidden Power
+- Spam Ember if Growled 2 times(-2 attack)
 :::
 
 :::if{source="Chimchar" condition="$hpStarly == 'Neutral' && $hpPiplup == 'Not Very Effective'"}
@@ -128,11 +139,15 @@ $route=4
 - Water is right behind Grass as the second best Hidden Power, also being 4x super effective against Geodude, Onix and 2x effective against Cranidos but having a slower Rival fight.
 - Steel is a very good Hidden Power, being 2x super effective against Geodude, Onix and Cranidos
 - Fire on the other hand is the pretty bad Hidden Power, requiring a slow exp route and consuming a lot of Ember PP which are needed later.
+- Spam Scratch
+- Spam Ember if Growled 2 times(-2 attack)
 :::
 
 :::if{source="Chimchar" condition="$hpStarly == 'Neutral' && $hpPiplup == 'Neutral'"}
 - You have either Hidden Power Fighting, Poison, Flying, Psychic, Dragon, Dark.
-- The only good Hidden Power is Fighting, which you will know if you have it the next fight.(2x super effective against Geodude, Onix and Cranidos)
+- The only good Hidden Power here is fighting. You will know you have it in the next fight.(2x super effective against Geodude, Onix and Cranidos)
+- Spam Hidden Power or Scratch
+- Spam Ember if Growled 2 times(-2 attack)
 :::
 
 :::if{source="Chimchar" condition="$hpStarly == 'Neutral' && $hpPiplup == 'Super Effective !'"}
@@ -141,17 +156,24 @@ $route=4
 
 :::if{source="Chimchar" condition="$hpStarly == 'Super Effective !' && $hpPiplup == 'Not Very Effective'"}
 - You have a good Hidden Power, Ice.(2x super effective against Geodude and Onix)
+- Spam Scratch
+- Spam Ember if Growled 2 times(-2 attack)
 :::
 
 :::if{source="Chimchar" condition="$hpStarly == 'Super Effective !' && $hpPiplup == 'Neutral'"}
 - You have a bad Hidden Power, Rock.
+- Spam Hidden Power or Scratch
+- Spam Ember if Growled 2 times(-2 attack)
 :::
 
 :::if{source="Chimchar" condition="$hpStarly == 'Super Effective !' && $hpPiplup == 'Super Effective !'"}
 - You have a bad Hidden Power, Electric, but a fast rival fight at least.
+- Spam Hidden Power
+- Spam Ember if Growled 2 times(-2 attack)
 :::
-
-::::
+:::::
+::::::
+:::::::
 
 
 
