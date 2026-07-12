@@ -131,6 +131,7 @@ Brownie if you read this, i havent done the route thingy yet, im waiting for smt
 ::::
 
 :::::if{source="Chimchar" condition="$hpStarly != 'No Effect'"}
+- Hidden Power
 ::variable{name="hpPiplup" type="select" title="What did Hidden Power do to Piplup ?" options='["Not Very Effective", "Neutral", "Super Effective !"]'}
 
 :::if{source="Chimchar" condition="$hpStarly == 'Not Very Effective' && $hpPiplup == 'Not Very Effective'"}
