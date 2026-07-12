@@ -97,7 +97,18 @@ Pick :info[**Chimchar**]{color=red} (Middle) as your starter
 ::damage[Bidoof 2 Tackle]{source="Chimchar" offensive=false special=false movePower=35 stab=true level=7 opponentLevel=3 opponentStat=6}
 :::::::
 
+- Continue North to Youngster Logan
 
+:::::::trainer[Youngster Logan]
+  :::::pokemon[Shinx]
+     - Ember Spam
+::damage[Shinx's Tackle (Male Chim)]{source="Chimchar" offensive=false special=false movePower=35 stab=false level=7 opponentLevel=5 opponentStat=9}
+::damage[Starly's Quick Attack]{source="Chimchar" offensive=false special=false movePower=40 stab=true level=5 opponentLevel=5 opponentStat=9}
+:::::::
+
+
+INSERT HERE THE ROUTE INBETWEEN
+Brownie if you read this, i havent done the route thingy yet, im waiting for smth but ill work on this when i can, i figured out u would still be on the abra part
 
 
 :::::::trainer[Rival 1]
