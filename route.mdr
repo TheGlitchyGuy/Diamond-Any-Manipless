@@ -192,6 +192,24 @@ Brownie if you read this, i havent done the route thingy yet, im waiting for smt
 ::::::
 :::::::
 
+Route 2
+:::if{source="Chimchar" condition="$hpStarly == 'Super Effective !' && $hpPiplup != 'Not Very Effective' || $hpKricketot!= 'Neutral'"}
+-pleeaae
+:::
+
+8K
+:::if{source="Chimchar" condition="$hpStarly == 'Neutral'"}
+- Go fight the **Youngster** to the right
+:::::::trainer[Youngster Dallas]
+::::::pokemon[Kricketot]
+- Hidden Power(+ Ember)
+::variable{name="hpKricketot" type="select" title="What did Hidden Power do to Kricketot ?" options='["Not Very Effective", "Neutral", "Super Effective !"]'}
+-test
+:::::::
+:::
+
+
+
 
 
 
