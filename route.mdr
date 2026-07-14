@@ -192,11 +192,6 @@ Brownie if you read this, i havent done the route thingy yet, im waiting for smt
 ::::::
 :::::::
 
-Route 2
-:::if{source="Chimchar" condition="$hpStarly == 'Super Effective !' && $hpPiplup != 'Not Very Effective' || $hpKricketot!= 'Neutral'"}
--pleeaae
-:::
-
 8K
 :::if{source="Chimchar" condition="$hpStarly == 'Neutral'"}
 - Go fight the **Youngster** to the right
@@ -207,6 +202,15 @@ Route 2
 -test
 :::::::
 :::
+
+
+
+
+Route 2
+:::if{source="Chimchar" condition="$hpStarly == 'Super Effective !' && $hpPiplup != 'Not Very Effective' || $hpKricketot!= 'Neutral'"}
+-pleeaae
+:::
+
 
 
 
