@@ -206,8 +206,9 @@ Brownie if you read this, i havent done the route thingy yet, im waiting for smt
 
 
 
-Route 2
+
 :::if{source="Chimchar" condition="$hpStarly == 'Super Effective !' && $hpPiplup != 'Not Very Effective' || $hpKricketot!= 'Neutral'"}
+-Route 2
 -pleeaae
 :::
 
